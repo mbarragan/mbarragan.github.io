@@ -1,0 +1,16 @@
+{
+  "name": "manu bank",
+  "version": "1.0.0",
+  "description": "West Bank personal version",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "npx --yes http-server . -c-1 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Barragan",
+  "license": "ISC",
+  "keywords": [
+    "javascript",
+    "games"
+  ]
+}
