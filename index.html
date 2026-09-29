@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mi Portfolio</title>
+    <title>Retro Dev Zone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="static/style.css">
 </head>
@@ -13,10 +17,10 @@
 
     <header>
         <nav>
-            <h1>Mi Portfolio</h1>
+            <h1>Retro Dev Zone</h1>
 
             <div>
-                <a href="#enlaces">Descargar alguna de mis movidas</a>                
+                <a href="#enlaces">Zona de descargas</a>
             </div>
         </nav>
     </header>
@@ -24,35 +28,68 @@
     <main>
 
         <section class="hero">
-            <h2>Hola, bienvenido a CUTRE-MARCIANOS</h2>
+            <h2>Bienvenido al hangar de CUTRE-MARCIANOS</h2>
 
             <p>
-                Adaptación del applet original que creé hace años, ahora en Java y con soporte para multijugador.
+                Adaptacion del applet original que cree hace anos, ahora en Java y con soporte multijugador para partidas retro.
             </p>
 
             <img src="static/Screenshot_cutre-marcianos.png" alt="Imagen de cutre-marcianos">
 
         </section>
         <section id="enlaces">
-            <h2>Bajar cutremarcianos</h2>
-            <br>
-            <div>
-                <a href="https://drive.google.com/file/d/1caJezUUXLAtIrSnIVOVsYLC8iyyTSGX7/view?usp=sharing">
-                    descargar .exe
-                </a> desde drive
-                <p>or</p>
-                <a href="https://drive.google.com/file/d/1FQsNawuN8t6hi5WqKAI8MWysFI3ealcG/view?usp=sharing">
-                    descargar .zip
-                </a> desde drive
-            </div>
-            <br>
-            
-            <h2>Bajar File-Manager</h2>
-            <br>
-            <div>
-                <a href="https://drive.google.com/file/d/1YZq2IkWKmlyoUJkdwr4hmiH0DZwc9HFV/view?usp=sharing">
-                    descargar .zip
-                </a> desde drive
+            <h2>Descargas</h2>
+            <p class="downloads-intro">Aqui podras bajar mis videojuegos y apps practicas.</p>
+
+            <div class="downloads-table-wrap">
+                <table class="downloads-table">
+                    <thead>
+                        <tr>
+                            <th>Proyecto</th>
+                            <th>Categoria</th>
+                            <th>Formato</th>
+                            <th>Estado</th>
+                            <th>Descarga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cutre-Marcianos</td>
+                            <td>Videojuego</td>
+                            <td>.exe</td>
+                            <td><span class="badge badge-online">Activo</span></td>
+                            <td><a class="download-link" href="https://drive.google.com/file/d/1caJezUUXLAtIrSnIVOVsYLC8iyyTSGX7/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descargar</a></td>
+                        </tr>
+                        <tr>
+                            <td>File-Manager</td>
+                            <td>Utilidad</td>
+                            <td>.zip</td>
+                            <td><span class="badge badge-online">Activo</span></td>
+                            <td><a class="download-link" href="https://drive.google.com/file/d/1YZq2IkWKmlyoUJkdwr4hmiH0DZwc9HFV/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descargar</a></td>
+                        </tr>
+                        <tr>
+                            <td>YTpattern</td>
+                            <td>Utilidad</td>
+                            <td>.zip</td>
+                            <td><span class="badge badge-online">Activo</span></td>
+                            <td><a class="download-link" href="https://drive.google.com/file/d/1fATQom86cwtf0WnkFBHyywM5kdXZjwYr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descargar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Manu Bank</td>
+                            <td>Videojuego</td>
+                            <td>.zip</td>
+                            <td><span class="badge badge-soon">Proximamente</span></td>
+                            <td><span class="download-link disabled">Bloqueado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Busca-Manus</td>
+                            <td>Videojuego</td>
+                            <td>.zip</td>
+                            <td><span class="badge badge-soon">Proximamente</span></td>
+                            <td><span class="download-link disabled">Bloqueado</span></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -60,7 +97,7 @@
 
 
     <footer>
-        <p>© 2026 Manu - Portfolio</p>
+        <p>© 2026 Manu - Retro Dev Zone</p>
     </footer>
 
     <script src="static/script.js"></script>
